@@ -1,4 +1,4 @@
-* {
+body {
   padding: 1px;
   margin: 1px;
 }
@@ -6,4 +6,5 @@
 .logoImage {
   height: 6rem;
   width: 6rem;
+  margin-bottom: 0.5rem;
 }/*# sourceMappingURL=styles.css.map */

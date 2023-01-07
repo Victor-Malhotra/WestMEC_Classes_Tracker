@@ -2,7 +2,7 @@ $mainColor : #f87c24;
 $accentColor: #bd611f;
 $backgroundColor: #ffffff;
 
-*{
+body{
   padding: 1px;
   margin: 1px;
 }
@@ -10,4 +10,5 @@ $backgroundColor: #ffffff;
 .logoImage{
   height: 6rem;
   width: 6rem;
+  margin-bottom: .5rem;
 }
