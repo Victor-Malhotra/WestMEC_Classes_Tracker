@@ -9,14 +9,40 @@
   <title>Document</title>
 </head>
 <body>
-  <div>
-      <div class="left">
+  <div class="flex flex-col">
+      <div class="flex space-x-32 text-center">
         <img class="rounded-full bg-black image logoImage"  src="images/West_MEC_Logo.png" alt="West-MEC Logo">
-        <div class="text-3xl font-extrabold">
-          <h1 class="inline" id="currentDate">Monday 1/2/2023</h1>
+        <h1 class="text-6xl font-extrabold textBottom">NorthEast West-MEC Campus Class Schedule</h1>
+        <div class="text-4xl font-extrabold textBottom">
+          <h1 class="inline" id="currentDate">Monday 1/2/2023 </h1>
           <h1 class="inline" id="currentTime">12:30PM</h1>
         </div>
       </div>
+      <b>
+        <div class="px-4 py-3 border-4 border-green-900 w-full">
+          <table class="w-full text-2xl">
+            <thead class="text-3xl">
+              <tr class="">
+                <td>Program Name</td>
+                <td>Start Time</td>
+                <td>End Time</td>
+                <td>Instructor Name</td>
+                <td>Building & Room #</td>
+              </tr>
+            </thead>
+            
+            <tbody id="classInfo">
+              <tr>
+                <td>Coding</td>
+                <td>1:00PM</td>
+                <td>3:30PM</td>
+                <td>Mr.Bernard</td>
+                <td>Main Building 2nd Flood</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </b>
   </div>
 </body>
 </html>
