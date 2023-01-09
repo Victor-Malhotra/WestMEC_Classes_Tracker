@@ -69,7 +69,7 @@ if (
 }
 function slideChange() {
   setTimeout(function () {
-    window.location.replace("http://127.0.0.1:5500/image.html");
+    window.location.replace("https://victor-malhotra.github.io/WestMEC_Classes_Tracker/image.html");
   }, 120000);
 }
 slideChange();
