@@ -1,15 +1,87 @@
 body {
   padding: 1px;
-  margin: 1rem;
+  margin: 0.6rem;
+  overflow: hidden;
 }
 
 .logoImage {
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 9.5rem;
+  width: 9.5rem;
   margin-bottom: 0.5rem;
 }
 
 .textBottom {
   align-self: flex-end;
   padding-bottom: 0.5rem;
+}
+
+.tableHolder {
+  height: 36.7rem;
+  overflow-y: hidden;
+}
+
+thead {
+  background-color: black;
+}
+
+thead tr {
+  border-bottom: 3px solid black;
+  color: #fefeff;
+}
+
+tbody tr {
+  padding-left: 2rem;
+  border-bottom: 2px solid #6e6e6e;
+}
+
+tbody tr td {
+  padding-left: 1rem;
+}
+
+tbody tr td:first-child {
+  padding-left: 1rem;
+}
+
+table {
+  border-spacing: 1rem 0;
+}
+
+.Coding {
+  background-color: rgba(255, 0, 0, 0.879);
+}
+
+.Air {
+  background-color: rgba(255, 106, 0, 0.541);
+}
+
+.Automotive {
+  background-color: rgba(0, 255, 0, 0.541);
+}
+
+.Collision {
+  background-color: rgba(0, 225, 255, 0.541);
+}
+
+.Electrical {
+  background-color: rgba(255, 255, 0, 0.541);
+}
+
+.Construction {
+  background-color: rgba(162, 2, 255, 0.541);
+}
+
+.Medical {
+  background-color: rgba(255, 192, 203, 0.541);
+}
+
+.Diesel {
+  background-color: rgba(165, 42, 42, 0.541);
+}
+
+.Pharmacy {
+  background-color: rgba(128, 128, 128, 0.541);
+}
+
+.Veterinary {
+  background-color: rgba(0, 255, 115, 0.541);
 }/*# sourceMappingURL=styles.css.map */

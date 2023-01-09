@@ -9,6 +9,7 @@
   <title>Document</title>
 </head>
 <body>
+ <img id="iterateImage" class="hidden" src="images/Student_Placements.png" style="height: 108vh; width: 100%" alt="" >
   <div class="flex flex-col">
       <div class="flex space-x-32 text-center">
         <img class="rounded-full bg-black image logoImage"  src="images/West_MEC_Logo.png" alt="West-MEC Logo">
@@ -19,9 +20,9 @@
         </div>
       </div>
       <b>
-        <div class="px-4 py-3 border-4 border-green-900 w-full">
-          <table class="w-full text-2xl">
-            <thead class="text-3xl">
+        <div class="px-4 py-3 border-4 border-green-900 w-full tableHolder">
+          <table class="w-full text-3xl">
+            <thead class="text-4xl">
               <tr class="">
                 <td>Program Name</td>
                 <td>Start Time</td>
@@ -31,21 +32,14 @@
               </tr>
             </thead>
             
-            <tbody id="classInfo">
-              <tr>
-                <td>Coding</td>
-                <td>1:00PM</td>
-                <td>3:30PM</td>
-                <td>Mr.Bernard</td>
-                <td>Main Building 2nd Flood</td>
-              </tr>
+            <tbody class="text-3xl" id="classInfo">
             </tbody>
           </table>
         </div>
       </b>
   </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
   <script src="populate.js" ></script>
 </body>
 </html>

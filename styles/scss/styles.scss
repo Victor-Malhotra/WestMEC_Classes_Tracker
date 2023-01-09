@@ -1,19 +1,86 @@
-$mainColor : #f87c24;
-$accentColor: #bd611f;
-$backgroundColor: #ffffff;
+$Coding: rgba(255, 0, 0, 0.879);
+$AirConditioningTech: rgba(255, 106, 0, 0.541);
+$AutomotiveTech: rgba(0, 255, 0, 0.541);
+$CollisionRR: rgba(0, 225, 255, 0.541);
+$ElectricalTS: rgba(255, 255, 0, 0.541);
+$GeneralConstructTech: rgba(162, 2, 255, 0.541);
+$MedicalAssisting: rgba(255, 192, 203, 0.541);
+$MediumHeavyDieselTech: rgba(165, 42, 42, 0.541);
+$PharmacyScience: rgba(128, 128, 128, 0.541);
+$VeterinaryScience: rgba(0, 255, 115, 0.541);
 
 body{
   padding: 1px;
-  margin: 1rem;
+  margin: .6rem;
+  overflow: hidden;
 }
 
 .logoImage{
-  height: 6.5rem;
-  width: 6.5rem;
+  height: 9.5rem;
+  width: 9.5rem;
   margin-bottom: .5rem;
 }
 
 .textBottom{
   align-self: flex-end;
   padding-bottom: .5rem;
+}
+
+.tableHolder{
+  height: 36.7rem;
+  overflow-y: hidden;
+}
+thead{
+  background-color: black;
+}
+
+thead tr{
+  border-bottom: 3px solid black;
+  color: #fefeff;
+}
+
+tbody tr{
+  padding-left: 2rem;
+
+  border-bottom: 2px solid #6e6e6e;
+}
+tbody tr td{
+  padding-left: 1rem;
+}
+tbody tr td:first-child{
+  padding-left: 1rem;
+}
+table{
+  border-spacing:1rem 0;
+}
+// Colors For Rows
+.Coding{
+  background-color: $Coding;
+}
+.Air{
+  background-color: $AirConditioningTech;
+}
+.Automotive{
+  background-color: $AutomotiveTech;
+}
+.Collision{
+  background-color: $CollisionRR;
+}
+.Electrical{
+  background-color: $ElectricalTS;
+}
+.Construction{
+  background-color: $GeneralConstructTech;
+}
+.Medical{
+  background-color: $MedicalAssisting;
+}
+.Diesel{
+  background-color: $MediumHeavyDieselTech;
+}
+.Pharmacy{
+  background-color: $PharmacyScience;
+}
+.Veterinary{
+  background-color: $VeterinaryScience;
 }

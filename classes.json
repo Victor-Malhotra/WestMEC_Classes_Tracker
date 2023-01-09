@@ -1,0 +1,162 @@
+{
+  "programs": [
+    {
+      "programName": "Coding",
+      "instructorName": "Mr.Bernard",
+      "classLocation": "Main Building 2nd Floor",
+      "classTimes": [
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "6:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Air Conditioning Technology",
+      "instructorName": "Mr.Vulcan",
+      "classLocation": "Lab 1st Floor",
+      "classTimes": [
+        {
+          "startTime": "7:30AM",
+          "endTime": "10:30AM"
+        }
+      ]
+    },
+    {
+      "programName": "Automotive Technology",
+      "instructorName": "Mr.Vulcan",
+      "classLocation": "Lab 2nd Floor",
+      "classTimes": [
+        {
+          "startTime": "7:00AM",
+          "endTime": "9:30AM"
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "6:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Collision Repair and Refinishing",
+      "instructorName": "Mr.Vulcan",
+      "classLocation": "Lab 2nd Floor",
+      "classTimes": [
+        {
+          "startTime":"7:00AM",
+          "endTime": "9:30AM"
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Electrical Trade Speciality",
+      "instructorName": "Mr.Vulcan",
+      "classLocation": "Lab 1st Floor",
+      "classTimes": [
+        {
+          "startTime":"7:00AM",
+          "endTime": "9:30AM"
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "General Construction Technology",
+      "instructorName": "Mr.Vulcan",
+      "classLocation": "Lab Basment",
+      "classTimes": [
+        {
+          "startTime":"7:00AM",
+          "endTime": "9:30AM"
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Medical Assisting",
+      "instructorName": "Mrs.Vulcan",
+      "classLocation": "Main Building 2nd Floor",
+      "classTimes": [
+        {
+          "startTime":"7:00AM",
+          "endTime": "11:00AM"
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "6:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Medium / Heavy Diesel Technology",
+      "instructorName": "Mr.Vulcan",
+      "classLocation": "Lab 2nd Floor",
+      "classTimes": [
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "6:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Pharmacy Science",
+      "instructorName": "Mrs.Vulcan",
+      "classLocation": "Main Building 1st Floor",
+      "classTimes": [
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "6:30PM"
+        }
+      ]
+    },
+    {
+      "programName": "Veterinary Science",
+      "instructorName": "Mrs.Vulcan",
+      "classLocation": "Vet Building",
+      "classTimes": [
+        {
+          "startTime":"7:00AM",
+          "endTime": "11:00AM"
+        },
+        {
+          "startTime": "1:00PM",
+          "endTime": "3:30PM"
+        },
+        {
+          "startTime": "4:00PM",
+          "endTime": "6:30PM"
+        }
+      ]
+    }
+  ]
+}

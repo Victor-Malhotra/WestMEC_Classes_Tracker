@@ -1,27 +1,62 @@
-/* <tr>
+document.getElementById("currentDay").innerHTML = moment().format("dddd");
+document.getElementById("currentDate").innerHTML =
+  moment().format("MM/DD/YYYY");
+function renderTime() {
+  document.getElementById("currentTime").innerHTML = moment().format("hh:mmA");
+}
+renderTime();
+setInterval(renderTime, 1000);
+
+/*
+  <tr>
     <td>Coding</td>
     <td>1:00PM</td>
     <td>3:30PM</td>
     <td>Mr.Bernard</td>
     <td>Main Building 2nd Flood</td>
-   </tr> */
-
-const currentDate = new Date();
-const currentDay = currentDate.toLocaleString("default", { weekday: "long" });
-const formatedDate = currentDate.toLocaleDateString("en", {
-  year: "numeric",
-  month: "2-digit",
-  day: "numeric",
+  </tr>
+*/
+const classInfoElement = document.getElementById("classInfo");
+$.getJSON("classes.json", function (data) {
+  for (let i = 0; i < data.programs.length; i++) {
+    for (let g = 0; g < data.programs[i].classTimes.length; g++) {
+      classInfoElement.innerHTML +=
+        "<tr class='" +
+        data.programs[i].programName +
+        "'><td>" +
+        data.programs[i].programName +
+        "</td><td>" +
+        data.programs[i].classTimes[g].startTime +
+        "</td><td>" +
+        data.programs[i].classTimes[g].endTime +
+        "</td><td>" +
+        data.programs[i].instructorName +
+        "</td><td>" +
+        data.programs[i].classLocation +
+        "</td></tr>";
+    }
+  }
 });
-const currentDayElement = document.getElementById("currentDay");
-currentDayElement.innerHTML = currentDay;
-const currentDateElement = document.getElementById("currentDate");
-currentDateElement.innerHTML = formatedDate;
 
-console.log(currentDay);
+$.fn.infiniteScrollUp = function () {
+  var self = this,
+    kids = self.children();
+  kids.slice(20).hide();
+  setInterval(function () {
+    kids.filter(":hidden").eq(0).fadeIn();
+    kids.eq(0).fadeOut(function () {
+      $(this).appendTo(self);
+      kids = self.children();
+    });
+  }, 2500);
+  return this;
+};
+const scrollBody = document.getElementsByTagName("tbody");
 
-function renderTime() {
-  document.querySelector("#currentTime").innerHTML = moment().format("hh:mmA");
+$(function () {
+  $("tbody").infiniteScrollUp();
+});
+
+function ShowImages() {
+  $("#iterateImage").fadeToggle();
 }
-renderTime();
-setInterval(renderTime, 1000);
