@@ -6,12 +6,12 @@
       "classLocation": "Main Building 2nd Floor",
       "classTimes": [
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         },
         {
-          "startTime": "4:00PM",
-          "endTime": "6:30PM"
+          "startTime": "04:00PM",
+          "endTime": "06:30PM"
         }
       ]
     },
@@ -21,7 +21,7 @@
       "classLocation": "Lab 1st Floor",
       "classTimes": [
         {
-          "startTime": "7:30AM",
+          "startTime": "07:30AM",
           "endTime": "10:30AM"
         }
       ]
@@ -32,16 +32,16 @@
       "classLocation": "Lab 2nd Floor",
       "classTimes": [
         {
-          "startTime": "7:00AM",
-          "endTime": "9:30AM"
+          "startTime": "07:00AM",
+          "endTime": "09:30AM"
         },
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         },
         {
-          "startTime": "4:00PM",
-          "endTime": "6:30PM"
+          "startTime": "04:00PM",
+          "endTime": "06:30PM"
         }
       ]
     },
@@ -51,12 +51,12 @@
       "classLocation": "Lab 2nd Floor",
       "classTimes": [
         {
-          "startTime":"7:00AM",
-          "endTime": "9:30AM"
+          "startTime":"07:00AM",
+          "endTime": "09:30AM"
         },
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         }
       ]
     },
@@ -66,12 +66,12 @@
       "classLocation": "Lab 1st Floor",
       "classTimes": [
         {
-          "startTime":"7:00AM",
-          "endTime": "9:30AM"
+          "startTime":"07:00AM",
+          "endTime": "09:30AM"
         },
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         }
       ]
     },
@@ -81,12 +81,12 @@
       "classLocation": "Lab Basment",
       "classTimes": [
         {
-          "startTime":"7:00AM",
-          "endTime": "9:30AM"
+          "startTime":"07:00AM",
+          "endTime": "09:30AM"
         },
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         }
       ]
     },
@@ -96,16 +96,16 @@
       "classLocation": "Main Building 2nd Floor",
       "classTimes": [
         {
-          "startTime":"7:00AM",
+          "startTime":"07:00AM",
           "endTime": "11:00AM"
         },
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         },
         {
-          "startTime": "4:00PM",
-          "endTime": "6:30PM"
+          "startTime": "04:00PM",
+          "endTime": "06:30PM"
         }
       ]
     },
@@ -115,12 +115,12 @@
       "classLocation": "Lab 2nd Floor",
       "classTimes": [
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         },
         {
-          "startTime": "4:00PM",
-          "endTime": "6:30PM"
+          "startTime": "04:00PM",
+          "endTime": "06:30PM"
         }
       ]
     },
@@ -130,12 +130,12 @@
       "classLocation": "Main Building 1st Floor",
       "classTimes": [
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         },
         {
-          "startTime": "4:00PM",
-          "endTime": "6:30PM"
+          "startTime": "04:00PM",
+          "endTime": "06:30PM"
         }
       ]
     },
@@ -145,16 +145,16 @@
       "classLocation": "Vet Building",
       "classTimes": [
         {
-          "startTime":"7:00AM",
+          "startTime":"07:00AM",
           "endTime": "11:00AM"
         },
         {
-          "startTime": "1:00PM",
-          "endTime": "3:30PM"
+          "startTime": "01:00PM",
+          "endTime": "03:30PM"
         },
         {
-          "startTime": "4:00PM",
-          "endTime": "6:30PM"
+          "startTime": "04:00PM",
+          "endTime": "06:30PM"
         }
       ]
     }

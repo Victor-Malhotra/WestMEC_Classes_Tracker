@@ -12,6 +12,7 @@ $VeterinaryScience: rgba(0, 255, 115, 0.541);
 body{
   padding: 1px;
   margin: .6rem;
+  margin-top: 2rem;
   overflow: hidden;
 }
 
@@ -27,7 +28,7 @@ body{
 }
 
 .tableHolder{
-  height: 36.7rem;
+  height: 39rem;
   overflow-y: hidden;
 }
 thead{
@@ -43,6 +44,12 @@ tbody tr{
   padding-left: 2rem;
 
   border-bottom: 2px solid #6e6e6e;
+}
+thead tr td{
+  padding-left: 0rem;
+}
+thead tr td:first-child{
+  padding-left: 1rem;
 }
 tbody tr td{
   padding-left: 1rem;
